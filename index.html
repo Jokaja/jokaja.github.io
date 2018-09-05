@@ -4,161 +4,94 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>music</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="assets/css/user.css">
-    <link rel="stylesheet" href="assets/css/Article-Clean.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Features-Blue.css">
-    <link rel="stylesheet" href="assets/css/Features-Clean.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/Header-Dark.css">
-    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
-    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+    <title>advertisement</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=News+Cycle:400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body>
-    <div class="photo-gallery"></div>
-    <div>
-        <div class="header-dark">
-            <nav class="navbar navbar-default navigation-clean-search">
-                <div class="container">
-                    <div class="navbar-header"><a class="navbar-brand" href="#">Mziki360</a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
-                    <div
-                        class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="nav navbar-nav">
-                            <li role="presentation"><a href="#">home</a></li>
-                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">lyrics<span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li role="presentation"><a href="#">Video lyrics</a></li>
-                                    <li role="presentation"><a href="#">Text lyrics</a></li>
-                                    <li role="presentation"><a href="#">Third Item</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="navbar-form navbar-left" target="_self">
-                            <div class="form-group"><label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
-                        </form>
-                        <p class="navbar-text navbar-right"><a class="navbar-link login" href="page/login.html">Log In</a> <a class="btn btn-default action-button" role="button" href="page/register.html">Sign Up</a></p>
-                </div>
-        </div>
-        </nav>
-        <div class="container hero">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1 class="text-center">Days Remaining : <p id="demo"></p> to Release </h1>
-
-                    <script>
-                    // Set the date we're counting down to
-                    var countDownDate = new Date("Sep 21, 2018 00:00:00").getTime();
-
-                    // Update the count down every 1 second
-                    var x = setInterval(function() {
-
-                        // Get todays date and time
-                        var now = new Date().getTime();
-
-                        // Find the distance between now an the count down date
-                        var distance = countDownDate - now;
-
-                        // Time calculations for days, hours, minutes and seconds
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Output the result in an element with id="demo"
-                        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                        + minutes + "m " + seconds + "s ";
-
-                        // If the count down is over, write some text
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("demo").innerHTML = "EXPIRED";
-                        }
-                    }, 1000);
-                    </script>
-
-                </div>
-                <div class="col-md-12">
-                    <blockquote>
-                        <p>Let Us enjoy more about Music any time any where. Login if You have account or register for more.&nbsp;</p>
-                        <footer>JOXTER &amp; IDONE</footer>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="highlight-phone">
+    <nav class="navbar navbar-default">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="intro">
-                        <h2>Watapata tabu sana</h2>
-                        <p>You can download, Listen or like any Music in our website for free. We are always here for you. Log in for more Enjoyments.<br><br></p><a class="btn btn-primary" role="button" href="page/music.html">view</a><a class="btn btn-primary"
-                            role="button" href="page/login.html">Download</a></div>
-                </div>
-                <div class="col-sm-4 hidden-xs">
-                    <div class="iphone-mockup"><img src="assets/img/Floki_S01P01.jpg" class="device"></div>
-                </div>
+            <div class="navbar-header"><a class="navbar-brand" href="#">Mziki360</a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li role="presentation"><a href="#">Videos</a></li>
+                    <li role="presentation"><a href="#">Audioa</a></li>
+                    <li role="presentation"><a href="#">contact us</a></li>
+                </ul><button class="btn btn-primary navbar-btn navbar-right" type="button"><strong>Joxter and Idone</strong></button></div>
+        </div>
+    </nav>
+    <ol class="breadcrumb">
+        <li><a href="#"><span>mziki360</span></a></li>
+        <li><a href="#"><span>advatisements</span></a></li>
+        <li class="active"><span>playing</span></li>
+    </ol>
+    <div class="container">
+        <div class="row product">
+            <div class="col-md-5 col-md-offset-0"><img class="img-responsive" src="assets/img/suit_jacket.jpg"></div>
+            <div class="col-md-7">
+                <h2>Music Lyrics</h2>
+                <p>Lets Enjoy Lyrics music by lisening online and Downloading.</p>
+                <h3>Kusikiliza, Kuagalia na Kudownload ni Bure.</h3><button class="btn btn-primary" type="button">Joxter is About to hit the button</button></div>
+        </div>
+        <div class="page-header">
+            <h3>Product Details</h3>
+        </div>
+        <p>Link ya website inakalibia kutolewa soon baada ya kukamilika kwa kila jambo.&nbsp;</p>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th><br>Unasikiliza<br></th>
+                        <th><br>Unaangalia<br></th>
+                        <th><br>Unadawnload<br></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BURE</td>
+                        <td>BURE</td>
+                        <td>BURE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="page-header">
+            <h3>Reviews<button class="btn btn-primary write-review" type="button">Write a review</button></h3>
+        </div>
+        <div class="media">
+            <div class="media-body">
+                <h4 class="media-heading">Love this!</h4>
+                <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></div>
+                <p>Pia Tunatoa matangazo ya biashara yoyote. Wasiliana nasi kwa namba 0764791031</p>
+                <p><span class="reviewer-name"><strong>Aidan</strong></span><span class="review-date">5 sept 2018</span></p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="media-body">
+                <h4 class="media-heading">Fantastic product</h4>
+                <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                <p>unapata website ambayo imekamilika katika upande wa php, mysql database, web design, javascript na mengine.</p>
+                <p><span class="reviewer-name"><strong>Johnson</strong></span><span class="review-date">5 sept 2018</span></p>
             </div>
         </div>
     </div>
-    <div class="contact-clean">
-        <form method="post">
-            <h2 class="text-center">Contact us</h2>
-            <div class="form-group has-success has-feedback"><input class="form-control" type="text" name="name" placeholder="Name"><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
-            <div class="form-group has-error has-feedback"><input class="form-control" type="email" name="email" placeholder="Email"><i class="form-control-feedback glyphicon glyphicon-remove" aria-hidden="true"></i>
-                <p class="help-block">Please enter a correct email address.</p>
-            </div>
-            <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
-        </form>
-    </div>
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-push-6 item text">
-                        <h3>Mziki360</h3>
-                        <p>You can download, Listen or like any Music in our website for free. We are always here for you.<br></p>
-                    </div>
-                    <div class="col-md-3 col-md-pull-6 col-sm-4 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-md-pull-6 col-sm-4 item">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 col-sm-4 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+    <footer class="site-footer">
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>mziki360@2018</h5>
                 </div>
-                <p class="copyright">Mziki360 © 2018</p>
+                <div class="col-sm-6 social-icons"><a href="www.facebook.com"><i class="fa fa-facebook"></i></a><a href="www.twiter.com"><i class="fa fa-twitter"></i></a><a href="www.instegram.com"><i class="fa fa-instagram"></i></a></div>
             </div>
-        </footer>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
